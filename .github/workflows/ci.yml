@@ -1,0 +1,25 @@
+# name: Vitest CI
+
+# on:
+#   push:
+#     branches:
+#       - main # Change this to your main branch name
+
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v2
+
+#       - name: Set up Node.js
+#         uses: actions/setup-node@v2
+#         with:
+#           node-version: 16 # Utilisez la version de Node.js requise pour votre projet
+
+#       - name: Install dependencies
+#         run: npm install
+
+#       - name: Run Vitest tests
+#         run: npm test
