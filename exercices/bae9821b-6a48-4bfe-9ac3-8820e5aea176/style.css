@@ -1,0 +1,29 @@
+
+/* Ajoutez vos styles CSS ici */
+.main-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.fruit-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.fruit-list-item {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.fruit-found {
+  color: green;
+  font-weight: bold;
+}
+
+.fruit-not-found {
+  color: red;
+  font-weight: bold;
+}
